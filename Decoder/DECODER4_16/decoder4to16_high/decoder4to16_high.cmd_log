@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/ch2/DECODER4_16/decoder4to16_high/decoder4to16_high.xst" -ofn "D:/cd/TT FPGA/project/ch2/DECODER4_16/decoder4to16_high/decoder4to16_high.syr" 

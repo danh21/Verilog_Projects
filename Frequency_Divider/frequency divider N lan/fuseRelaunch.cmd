@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency divider N lan/fre_div_tb_isim_beh.exe" -prj "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency divider N lan/fre_div_tb_beh.prj" "work.fre_div_tb" "work.glbl" 

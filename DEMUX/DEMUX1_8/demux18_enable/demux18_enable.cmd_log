@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/demux18_enable/demux18_enable.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/demux18_enable/demux18_enable.syr" 

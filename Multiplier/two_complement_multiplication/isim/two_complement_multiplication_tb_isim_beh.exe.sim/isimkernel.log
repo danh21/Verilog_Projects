@@ -1,0 +1,29 @@
+Command line:
+   two_complement_multiplication_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51421
+
+Fri Jul 09 13:05:19 2021
+
+
+ Elaboration Time: 0.28125 sec
+
+ Current Memory Usage: 5162.55 Meg
+
+ Total Signals          : 83
+ Total Nets             : 63
+ Total Signal Drivers   : 49
+ Total Blocks           : 15
+ Total Primitive Blocks : 13
+ Total Processes        : 51
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 151
+Total Line Count : 64
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5162.55 Meg
+
+Fri Jul 09 13:05:27 2021
+

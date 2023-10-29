@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/ch2/DECODER3_8/decoder38_enable_high_case/tb_isim_beh.exe" -prj "D:/cd/ch2/DECODER3_8/decoder38_enable_high_case/tb_beh.prj" "work.tb" "work.glbl" 

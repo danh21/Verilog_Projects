@@ -1,0 +1,636 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: FSM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FSM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FSM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : FSM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux4_1.v" in library work
+Compiling verilog file "Counter8bs.v" in library work
+Module <mux4_1> compiled
+Compiling verilog file "Counter2bs.v" in library work
+Module <Counter8bs> compiled
+Compiling verilog file "clock_div.v" in library work
+Module <Counter2bs> compiled
+Compiling verilog file "button.v" in library work
+Module <clock_div> compiled
+Compiling verilog file "FSM.v" in library work
+Module <button> compiled
+Module <FSM> compiled
+No errors in compilation
+Analysis of file <"FSM.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <FSM> in library <work>.
+
+Analyzing hierarchy for module <button> in library <work> with parameters.
+	A = "00000000000001111010000100100000"
+	N = "00000000000000000000000000010011"
+	one = "100"
+	wait0_1 = "101"
+	wait0_2 = "110"
+	wait0_3 = "111"
+	wait1_1 = "001"
+	wait1_2 = "010"
+	wait1_3 = "011"
+	zero = "000"
+
+Analyzing hierarchy for module <clock_div> in library <work> with parameters.
+	M = "00000010111110101111000010000000"
+	N = "00000000000000000000000000011010"
+
+Analyzing hierarchy for module <Counter2bs> in library <work> with parameters.
+	N = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <mux4_1> in library <work>.
+
+Analyzing hierarchy for module <Counter8bs> in library <work> with parameters.
+	N = "00000000000000000000000000001000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <FSM>.
+Module <FSM> is correct for synthesis.
+ 
+Analyzing module <button> in library <work>.
+	A = 32'sb00000000000001111010000100100000
+	N = 32'sb00000000000000000000000000010011
+	one = 3'b100
+	wait0_1 = 3'b101
+	wait0_2 = 3'b110
+	wait0_3 = 3'b111
+	wait1_1 = 3'b001
+	wait1_2 = 3'b010
+	wait1_3 = 3'b011
+	zero = 3'b000
+Module <button> is correct for synthesis.
+ 
+Analyzing module <clock_div> in library <work>.
+	M = 32'sb00000010111110101111000010000000
+	N = 32'sb00000000000000000000000000011010
+Module <clock_div> is correct for synthesis.
+ 
+Analyzing module <Counter2bs> in library <work>.
+	N = 32'sb00000000000000000000000000000010
+Module <Counter2bs> is correct for synthesis.
+ 
+Analyzing module <mux4_1> in library <work>.
+Module <mux4_1> is correct for synthesis.
+ 
+Analyzing module <Counter8bs> in library <work>.
+	N = 32'sb00000000000000000000000000001000
+Module <Counter8bs> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <button>.
+    Related source file is "button.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state_reg> of Case statement line 58 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <state_reg> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 22                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 19-bit adder for signal <q_next$addsub0000> created at line 43.
+    Found 19-bit register for signal <q_reg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <button> synthesized.
+
+
+Synthesizing Unit <clock_div>.
+    Related source file is "clock_div.v".
+    Found 26-bit comparator less for signal <q_0$cmp_lt0000> created at line 53.
+    Found 26-bit comparator less for signal <q_1$cmp_lt0000> created at line 54.
+    Found 26-bit comparator less for signal <q_2$cmp_lt0000> created at line 55.
+    Found 26-bit comparator less for signal <q_3$cmp_lt0000> created at line 56.
+    Found 26-bit adder for signal <r_next1000H$addsub0000> created at line 51.
+    Found 26-bit adder for signal <r_next100H$addsub0000> created at line 50.
+    Found 26-bit adder for signal <r_next10H$addsub0000> created at line 49.
+    Found 26-bit adder for signal <r_next1H$addsub0000> created at line 48.
+    Found 26-bit register for signal <r_reg1000H>.
+    Found 26-bit register for signal <r_reg100H>.
+    Found 26-bit register for signal <r_reg10H>.
+    Found 26-bit register for signal <r_reg1H>.
+    Summary:
+	inferred 104 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <clock_div> synthesized.
+
+
+Synthesizing Unit <Counter2bs>.
+    Related source file is "Counter2bs.v".
+    Found 2-bit up counter for signal <r_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Counter2bs> synthesized.
+
+
+Synthesizing Unit <mux4_1>.
+    Related source file is "mux4_1.v".
+    Found 1-bit 4-to-1 multiplexer for signal <clk_o>.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4_1> synthesized.
+
+
+Synthesizing Unit <Counter8bs>.
+    Related source file is "Counter8bs.v".
+    Found 8-bit up counter for signal <cnt_reg>.
+    Found 8-bit addsub for signal <r_next>.
+    Found 8-bit register for signal <r_reg>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Counter8bs> synthesized.
+
+
+Synthesizing Unit <FSM>.
+    Related source file is "FSM.v".
+Unit <FSM> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 19-bit adder                                          : 3
+ 26-bit adder                                          : 4
+ 8-bit addsub                                          : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 8
+ 19-bit register                                       : 3
+ 26-bit register                                       : 4
+ 8-bit register                                        : 1
+# Comparators                                          : 4
+ 26-bit comparator less                                : 4
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <btn1/state_reg/FSM> on signal <state_reg[1:3]> with user encoding.
+Optimizing FSM <btn2/state_reg/FSM> on signal <state_reg[1:3]> with user encoding.
+Optimizing FSM <btn3/state_reg/FSM> on signal <state_reg[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+ 110   | 110
+ 111   | 111
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 8
+ 19-bit adder                                          : 3
+ 26-bit adder                                          : 4
+ 8-bit addsub                                          : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 169
+ Flip-Flops                                            : 169
+# Comparators                                          : 4
+ 26-bit comparator less                                : 4
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <cnt_reg_1> of sequential type is unconnected in block <Counter8bs>.
+WARNING:Xst:2677 - Node <cnt_reg_2> of sequential type is unconnected in block <Counter8bs>.
+WARNING:Xst:2677 - Node <cnt_reg_3> of sequential type is unconnected in block <Counter8bs>.
+WARNING:Xst:2677 - Node <cnt_reg_4> of sequential type is unconnected in block <Counter8bs>.
+WARNING:Xst:2677 - Node <cnt_reg_5> of sequential type is unconnected in block <Counter8bs>.
+WARNING:Xst:2677 - Node <cnt_reg_6> of sequential type is unconnected in block <Counter8bs>.
+WARNING:Xst:2677 - Node <cnt_reg_7> of sequential type is unconnected in block <Counter8bs>.
+
+Optimizing unit <FSM> ...
+
+Optimizing unit <button> ...
+
+Optimizing unit <clock_div> ...
+
+Optimizing unit <Counter8bs> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FSM, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 181
+ Flip-Flops                                            : 181
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : FSM.ngr
+Top Level Output File Name         : FSM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 842
+#      GND                         : 1
+#      INV                         : 19
+#      LUT1                        : 167
+#      LUT2                        : 123
+#      LUT3                        : 13
+#      LUT3_D                      : 6
+#      LUT4                        : 117
+#      LUT4_D                      : 4
+#      LUT4_L                      : 3
+#      MUXCY                       : 224
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 162
+# FlipFlops/Latches                : 181
+#      FDC                         : 181
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 4
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      243  out of   4656     5%  
+ Number of Slice Flip Flops:            181  out of   9312     1%  
+ Number of 4 input LUTs:                452  out of   9312     4%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+btn1/state_reg_FSM_FFd1            | NONE(counter1/r_reg_0)   | 2     |
+clk                                | BUFGP                    | 170   |
+btn3/state_reg_FSM_FFd1            | NONE(counter2/cnt_reg_0) | 1     |
+f_out(f_out1:O)                    | NONE(*)(counter2/r_reg_7)| 8     |
+-----------------------------------+--------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 181   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.424ns (Maximum Frequency: 155.666MHz)
+   Minimum input arrival time before clock: 4.178ns
+   Maximum output required time after clock: 4.532ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'btn1/state_reg_FSM_FFd1'
+  Clock period: 2.610ns (frequency: 383.142MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.610ns (Levels of Logic = 1)
+  Source:            counter1/r_reg_0 (FF)
+  Destination:       counter1/r_reg_0 (FF)
+  Source Clock:      btn1/state_reg_FSM_FFd1 rising
+  Destination Clock: btn1/state_reg_FSM_FFd1 rising
+
+  Data Path: counter1/r_reg_0 to counter1/r_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.587  counter1/r_reg_0 (counter1/r_reg_0)
+     INV:I->O              1   0.704   0.420  counter1/Mcount_r_reg_xor<0>11_INV_0 (Result<0>)
+     FDC:D                     0.308          counter1/r_reg_0
+    ----------------------------------------
+    Total                      2.610ns (1.603ns logic, 1.007ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.424ns (frequency: 155.666MHz)
+  Total number of paths / destination ports: 5959 / 170
+-------------------------------------------------------------------------
+Delay:               6.424ns (Levels of Logic = 4)
+  Source:            btn3/q_reg_10 (FF)
+  Destination:       btn3/state_reg_FSM_FFd2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: btn3/q_reg_10 to btn3/state_reg_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  btn3/q_reg_10 (btn3/q_reg_10)
+     LUT4:I0->O            1   0.704   0.499  btn3/m_tick_cmp_eq0000125 (btn3/m_tick_cmp_eq0000125)
+     LUT3:I1->O           20   0.704   1.137  btn3/m_tick_cmp_eq00001511 (btn3/N01)
+     LUT3_D:I2->O          2   0.704   0.451  btn3/m_tick_cmp_eq000033 (btn3/m_tick)
+     LUT4:I3->O            1   0.704   0.000  btn3/state_reg_FSM_FFd2-In1 (btn3/state_reg_FSM_FFd2-In)
+     FDC:D                     0.308          btn3/state_reg_FSM_FFd2
+    ----------------------------------------
+    Total                      6.424ns (3.715ns logic, 2.709ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'btn3/state_reg_FSM_FFd1'
+  Clock period: 3.091ns (frequency: 323.520MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               3.091ns (Levels of Logic = 2)
+  Source:            counter2/cnt_reg_0 (FF)
+  Destination:       counter2/cnt_reg_0 (FF)
+  Source Clock:      btn3/state_reg_FSM_FFd1 rising
+  Destination Clock: btn3/state_reg_FSM_FFd1 rising
+
+  Data Path: counter2/cnt_reg_0 to counter2/cnt_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   0.961  counter2/cnt_reg_0 (counter2/cnt_reg_0)
+     INV:I->O              0   0.704   0.000  counter2/Mcount_cnt_reg_lut<0>_INV_0 (counter2/Mcount_cnt_reg_lut<0>)
+     XORCY:LI->O           1   0.527   0.000  counter2/Mcount_cnt_reg_xor<0> (counter2/Result<0>)
+     FDC:D                     0.308          counter2/cnt_reg_0
+    ----------------------------------------
+    Total                      3.091ns (2.130ns logic, 0.961ns route)
+                                       (68.9% logic, 31.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'f_out'
+  Clock period: 5.793ns (frequency: 172.622MHz)
+  Total number of paths / destination ports: 39 / 8
+-------------------------------------------------------------------------
+Delay:               5.793ns (Levels of Logic = 4)
+  Source:            counter2/r_reg_0 (FF)
+  Destination:       counter2/r_reg_7 (FF)
+  Source Clock:      f_out rising
+  Destination Clock: f_out rising
+
+  Data Path: counter2/r_reg_0 to counter2/r_reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.591   0.668  counter2/r_reg_0 (counter2/r_reg_0)
+     LUT3:I2->O            3   0.704   0.535  counter2/Maddsub_r_next_cy<1>1 (counter2/Maddsub_r_next_cy<1>)
+     LUT4:I3->O            2   0.704   0.451  counter2/Maddsub_r_next_cy<5>1_SW2 (counter2/Maddsub_r_next_cy<3>)
+     LUT4_D:I3->O          1   0.704   0.424  counter2/Maddsub_r_next_cy<5>1 (counter2/Maddsub_r_next_cy<5>)
+     LUT4:I3->O            1   0.704   0.000  counter2/Maddsub_r_next_xor<7>11 (counter2/r_next<7>)
+     FDC:D                     0.308          counter2/r_reg_7
+    ----------------------------------------
+    Total                      5.793ns (3.715ns logic, 2.078ns route)
+                                       (64.1% logic, 35.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              4.178ns (Levels of Logic = 3)
+  Source:            btn_ud (PAD)
+  Destination:       btn3/state_reg_FSM_FFd2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btn_ud to btn3/state_reg_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  btn_ud_IBUF (btn_ud_IBUF)
+     LUT2:I0->O            2   0.704   0.622  btn3/state_reg_FSM_FFd2-In11 (btn3/state_reg_FSM_N0)
+     LUT4:I0->O            1   0.704   0.000  btn3/state_reg_FSM_FFd3-In1 (btn3/state_reg_FSM_FFd3-In)
+     FDC:D                     0.308          btn3/state_reg_FSM_FFd3
+    ----------------------------------------
+    Total                      4.178ns (2.934ns logic, 1.244ns route)
+                                       (70.2% logic, 29.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'f_out'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.532ns (Levels of Logic = 1)
+  Source:            counter2/r_reg_2 (FF)
+  Destination:       q<2> (PAD)
+  Source Clock:      f_out rising
+
+  Data Path: counter2/r_reg_2 to q<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.591   0.669  counter2/r_reg_2 (counter2/r_reg_2)
+     OBUF:I->O                 3.272          q_2_OBUF (q<2>)
+    ----------------------------------------
+    Total                      4.532ns (3.863ns logic, 0.669ns route)
+                                       (85.2% logic, 14.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.49 secs
+ 
+--> 
+
+Total memory usage is 4513616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

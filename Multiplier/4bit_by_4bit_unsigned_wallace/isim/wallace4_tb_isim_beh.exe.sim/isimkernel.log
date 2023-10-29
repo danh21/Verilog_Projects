@@ -1,0 +1,29 @@
+Command line:
+   wallace4_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63110
+
+Sun Jul 11 19:56:01 2021
+
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 5163.11 Meg
+
+ Total Signals          : 157
+ Total Nets             : 90
+ Total Signal Drivers   : 62
+ Total Blocks           : 23
+ Total Primitive Blocks : 20
+ Total Processes        : 64
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 178
+Total Line Count : 55
+
+ Total Simulation Time: 0.40625 sec
+
+ Current Memory Usage: 5163.11 Meg
+
+Sun Jul 11 19:56:17 2021
+

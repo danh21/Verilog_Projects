@@ -1,0 +1,4 @@
+verilog work "Counter8bps.v"
+verilog work "clock_div.v"
+verilog work "button.v"
+verilog work "FSM.v"

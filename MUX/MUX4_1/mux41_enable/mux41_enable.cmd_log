@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/mux41_enable/mux41_enable.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/mux41_enable/mux41_enable.syr" 

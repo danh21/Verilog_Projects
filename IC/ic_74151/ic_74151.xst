@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/ref/ch2/mux/ic_74151/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/ref/ch2/mux/ic_74151/xst"
+elaborate
+-ifn ic_74151.prj
+-ifmt mixed

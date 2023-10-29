@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/adder4bit_convert_to_adder8bit - Copy/adder8bit.xst" -ofn "D:/cd/thiet ke he thong va vi mach/adder4bit_convert_to_adder8bit - Copy/adder8bit.syr" 

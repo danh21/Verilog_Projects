@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/ref/ch2/DEMUX1_16/demux14_to_demux116/demux1_16_enable.xst" -ofn "D:/cd/ref/ch2/DEMUX1_16/demux14_to_demux116/demux1_16_enable.syr" 
+xst -intstyle ise -ifn "D:/cd/ref/ch2/DEMUX1_16/demux14_to_demux116/demux1_16_enable.xst" -ofn "D:/cd/ref/ch2/DEMUX1_16/demux14_to_demux116/demux1_16_enable.syr" 

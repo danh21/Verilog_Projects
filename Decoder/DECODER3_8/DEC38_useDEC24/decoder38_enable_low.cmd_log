@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/decoder24_to_decoder38/decoder38_enable_low.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/decoder24_to_decoder38/decoder38_enable_low.syr" 

@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/TT FPGA/project/tuan 1/full_subtractor_8bit/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/TT FPGA/project/tuan 1/full_subtractor_8bit/xst"
+elaborate
+-ifn full_subtractor_8bit.prj
+-ifmt mixed

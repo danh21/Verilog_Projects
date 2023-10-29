@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/dual_port_RAM_with_synchronous_read/xilinx_dual_port_ram_sync.xst" -ofn "D:/cd/thiet ke he thong va vi mach/dual_port_RAM_with_synchronous_read/xilinx_dual_port_ram_sync.syr" 

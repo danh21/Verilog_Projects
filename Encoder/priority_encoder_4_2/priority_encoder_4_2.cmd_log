@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/priority_encoder_4_2/priority_encoder_4_2.xst" -ofn "D:/cd/thiet ke he thong va vi mach/priority_encoder_4_2/priority_encoder_4_2.syr" 

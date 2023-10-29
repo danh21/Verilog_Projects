@@ -1,0 +1,463 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: FIFO_BRAM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FIFO_BRAM.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FIFO_BRAM"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : FIFO_BRAM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\Write_CTRL.v" into library work
+Parsing module <Write_CTRL>.
+Analyzing Verilog file "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\Read_CTRL.v" into library work
+Parsing module <Read_CTRL>.
+Analyzing Verilog file "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\FIFO_Flag.v" into library work
+Parsing module <FIFO_Flag>.
+Analyzing Verilog file "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\Dual_port_ram.v" into library work
+Parsing module <Dual_port_ram>.
+Analyzing Verilog file "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\FIFO_BRAM.v" into library work
+Parsing module <FIFO_BRAM>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <FIFO_BRAM>.
+
+Elaborating module <Dual_port_ram>.
+
+Elaborating module <Read_CTRL>.
+
+Elaborating module <Write_CTRL>.
+
+Elaborating module <FIFO_Flag>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FIFO_BRAM>.
+    Related source file is "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\FIFO_BRAM.v".
+    Summary:
+	no macro.
+Unit <FIFO_BRAM> synthesized.
+
+Synthesizing Unit <Dual_port_ram>.
+    Related source file is "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\Dual_port_ram.v".
+    Found 32x8-bit dual-port RAM <Mram_SRAM> for signal <SRAM>.
+    Found 5-bit register for signal <Read_addr_reg>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   5 D-type flip-flop(s).
+Unit <Dual_port_ram> synthesized.
+
+Synthesizing Unit <Read_CTRL>.
+    Related source file is "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\Read_CTRL.v".
+    Found 6-bit register for signal <Read_pointer_reg>.
+    Found 6-bit adder for signal <Read_pointer_reg[5]_GND_3_o_add_1_OUT> created at line 43.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <Read_CTRL> synthesized.
+
+Synthesizing Unit <Write_CTRL>.
+    Related source file is "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\Write_CTRL.v".
+    Found 6-bit register for signal <Write_pointer_reg>.
+    Found 6-bit adder for signal <Write_pointer_reg[5]_GND_4_o_add_1_OUT> created at line 43.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <Write_CTRL> synthesized.
+
+Synthesizing Unit <FIFO_Flag>.
+    Related source file is "D:\cd\thiet ke he thong va vi mach\PONG CHU\XlLlNX SPARTAN-3 SPECIFIC MEMORY\project 2\BRAM_BASED_FIFO\FIFO_Flag.v".
+    Found 5-bit subtractor for signal <Write_pointer[4]_Read_pointer[4]_sub_1_OUT> created at line 28.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <FIFO_Flag> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x8-bit dual-port RAM                                : 1
+# Adders/Subtractors                                   : 3
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 2
+# Registers                                            : 3
+ 5-bit register                                        : 1
+ 6-bit register                                        : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Dual_port_ram>.
+INFO:Xst:3231 - The small RAM <Mram_SRAM> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <WR_en>         | high     |
+    |     addrA          | connected to signal <Write_addr>    |          |
+    |     diA            | connected to signal <Write_data>    |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     addrB          | connected to signal <Read_addr_reg> |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Dual_port_ram> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Read_CTRL>.
+The following registers are absorbed into counter <Read_pointer_reg>: 1 register on signal <Read_pointer_reg>.
+Unit <Read_CTRL> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Write_CTRL>.
+The following registers are absorbed into counter <Write_pointer_reg>: 1 register on signal <Write_pointer_reg>.
+Unit <Write_CTRL> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x8-bit dual-port distributed RAM                    : 1
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Counters                                             : 2
+ 6-bit up counter                                      : 2
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FIFO_BRAM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FIFO_BRAM, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FIFO_BRAM.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 21
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 4
+#      LUT4                        : 4
+#      LUT5                        : 5
+#      LUT6                        : 4
+# FlipFlops/Latches                : 17
+#      FD                          : 5
+#      FDC                         : 1
+#      FDCE                        : 11
+# RAMS                             : 3
+#      RAM32M                      : 1
+#      RAM32X1D                    : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 11
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              17  out of  126800     0%  
+ Number of Slice LUTs:                   28  out of  63400     0%  
+    Number used as Logic:                20  out of  63400     0%  
+    Number used as Memory:                8  out of  19000     0%  
+       Number used as RAM:                8
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     31
+   Number with an unused Flip Flop:      14  out of     31    45%  
+   Number with an unused LUT:             3  out of     31     9%  
+   Number of fully used LUT-FF pairs:    14  out of     31    45%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    210    10%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.314ns (Maximum Frequency: 432.115MHz)
+   Minimum input arrival time before clock: 1.506ns
+   Maximum output required time after clock: 2.482ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 2.314ns (frequency: 432.115MHz)
+  Total number of paths / destination ports: 252 / 56
+-------------------------------------------------------------------------
+Delay:               2.314ns (Levels of Logic = 2)
+  Source:            RC/Read_pointer_reg_0 (FF)
+  Destination:       RAM/Mram_SRAM1 (RAM)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: RC/Read_pointer_reg_0 to RAM/Mram_SRAM1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              8   0.361   0.725  RC/Read_pointer_reg_0 (RC/Read_pointer_reg_0)
+     LUT6:I0->O            4   0.097   0.309  RC/Read_en11_SW0 (N01)
+     LUT5:I4->O            9   0.097   0.316  WC/WR_en1 (WR_en)
+     RAM32M:WE                 0.408          RAM/Mram_SRAM1
+    ----------------------------------------
+    Total                      2.314ns (0.963ns logic, 1.351ns route)
+                                       (41.6% logic, 58.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 35 / 35
+-------------------------------------------------------------------------
+Offset:              1.506ns (Levels of Logic = 2)
+  Source:            Write (PAD)
+  Destination:       RAM/Mram_SRAM1 (RAM)
+  Destination Clock: Clk rising
+
+  Data Path: Write to RAM/Mram_SRAM1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.683  Write_IBUF (Write_IBUF)
+     LUT5:I0->O            9   0.097   0.316  WC/WR_en1 (WR_en)
+     RAM32M:WE                 0.408          RAM/Mram_SRAM1
+    ----------------------------------------
+    Total                      1.506ns (0.506ns logic, 1.000ns route)
+                                       (33.6% logic, 66.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 72 / 10
+-------------------------------------------------------------------------
+Offset:              2.482ns (Levels of Logic = 4)
+  Source:            RC/Read_pointer_reg_0 (FF)
+  Destination:       FIFO_Empty (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: RC/Read_pointer_reg_0 to FIFO_Empty
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              8   0.361   0.725  RC/Read_pointer_reg_0 (RC/Read_pointer_reg_0)
+     LUT6:I0->O            4   0.097   0.309  RC/Read_en11_SW0 (N01)
+     LUT5:I4->O            2   0.097   0.515  RC/Read_en11 (RC/Read_en11)
+     LUT3:I0->O            1   0.097   0.279  FFL/FIFO_Empty1 (FIFO_Empty_OBUF)
+     OBUF:I->O                 0.000          FIFO_Empty_OBUF (FIFO_Empty)
+    ----------------------------------------
+    Total                      2.482ns (0.652ns logic, 1.830ns route)
+                                       (26.3% logic, 73.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    2.314|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.10 secs
+ 
+--> 
+
+Total memory usage is 4617952 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

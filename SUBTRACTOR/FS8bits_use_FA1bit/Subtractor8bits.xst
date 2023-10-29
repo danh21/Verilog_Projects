@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/DELL/Downloads/Subtractor8bits/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/DELL/Downloads/Subtractor8bits/xst"
+elaborate
+-ifn Subtractor8bits.prj
+-ifmt mixed

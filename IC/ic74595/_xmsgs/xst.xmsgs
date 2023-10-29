@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">36</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS8</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS9</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">38</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS10</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">39</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS11</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">40</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS12</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">41</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS13</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">42</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS14</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">IC74595.v</arg>&quot; line <arg fmt="%d" index="2">43</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">reset</arg>&apos; of instance &apos;<arg fmt="%s" index="4">RS15</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">qbar&lt;15:8&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">IC74595</arg>: <arg fmt="%d" index="2">15</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/BoothTop.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/BoothTop.syr" 

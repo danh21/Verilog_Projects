@@ -1,0 +1,4 @@
+verilog work "Transmitter.v"
+verilog work "FIFO.v"
+verilog work "Controller.v"
+verilog work "Transmitter_subsystem.v"

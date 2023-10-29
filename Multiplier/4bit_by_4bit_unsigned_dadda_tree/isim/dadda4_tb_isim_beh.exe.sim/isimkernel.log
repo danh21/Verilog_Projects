@@ -1,0 +1,29 @@
+Command line:
+   dadda4_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62771
+
+Fri Jul 09 10:38:09 2021
+
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 5162.59 Meg
+
+ Total Signals          : 126
+ Total Nets             : 78
+ Total Signal Drivers   : 52
+ Total Blocks           : 18
+ Total Primitive Blocks : 15
+ Total Processes        : 54
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 166
+Total Line Count : 54
+
+ Total Simulation Time: 0.4375 sec
+
+ Current Memory Usage: 5005.31 Meg
+
+Fri Jul 09 10:39:11 2021
+

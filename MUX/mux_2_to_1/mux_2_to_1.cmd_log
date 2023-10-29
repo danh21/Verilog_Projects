@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/mux_2_to_1/mux_2_to_1.xst" -ofn "D:/cd/thiet ke he thong va vi mach/mux_2_to_1/mux_2_to_1.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/mux_2_to_1/mux_2_to_1.xst" -ofn "D:/cd/thiet ke he thong va vi mach/mux_2_to_1/mux_2_to_1.syr" 

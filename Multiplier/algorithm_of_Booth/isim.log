@@ -1,0 +1,15 @@
+ISim log file
+Running: D:\cd\thiet ke he thong va vi mach\algorithm_of_Booth\BoothTop_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/BoothTop_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/B1/, width 5 of formal port Q is not equal to width 6 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 300 ns :  in File "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/BoothTop_tb.v" Line 55 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/cd/thiet ke he thong va vi mach/binary_multiplier/binary_multiplier_tb_isim_beh.exe" -prj "D:/cd/thiet ke he thong va vi mach/binary_multiplier/binary_multiplier_tb_beh.prj" "work.binary_multiplier_tb" "work.glbl" 

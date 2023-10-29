@@ -1,0 +1,3 @@
+verilog work "flipflop_t.v"
+verilog work "clockdiv.v"
+verilog work "counter4bit.v"

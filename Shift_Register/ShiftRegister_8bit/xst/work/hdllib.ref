@@ -1,0 +1,7 @@
+MO mux2to1 NULL mux2to1.v vlg20/mux2to1.bin 1640868931
+MO FFD NULL FFD.v vlg78/_f_f_d.bin 1640868931
+MO mux4to1 NULL mux4to1.v vlg1A/mux4to1.bin 1640868931
+MO Shift_Register NULL Shift_Register.v vlg5E/_shift___register.bin 1640868931
+MO shift_register_8b_SIPO_1 NULL shift_register_8b_SIPO.v vlg2D/shift__register__8b___s_i_p_o__1.bin 1640868931
+MO LedOnGra_RL NULL LedOnGra_RL.v vlg79/_led_on_gra___r_l.bin 1640868931
+MO clock_div NULL clock_div.v vlg4A/clock__div.bin 1640868931

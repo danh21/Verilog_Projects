@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/RT-LEVEL COMBINATIONAL CIRCUIT/decoder_2_4/decoder_2_4.xst" -ofn "D:/cd/thiet ke he thong va vi mach/RT-LEVEL COMBINATIONAL CIRCUIT/decoder_2_4/decoder_2_4.syr" 

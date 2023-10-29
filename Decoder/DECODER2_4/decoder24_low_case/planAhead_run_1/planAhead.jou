@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Oct 09 13:59:31 2021
+# Process ID: 11700
+# Log file: D:/cd/TT FPGA/project/ch2/DECODER2_4/decoder24_low_case/planAhead_run_1/planAhead.log
+# Journal file: D:/cd/TT FPGA/project/ch2/DECODER2_4/decoder24_low_case/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/cd/TT FPGA/project/ch2/DECODER2_4/decoder24_low_case/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

@@ -1,0 +1,3 @@
+verilog work "FFD.v"
+verilog work "clock_div.v"
+verilog work "shift_register_4b_SIPO.v"

@@ -1,0 +1,4 @@
+MO full_subtractor_1bit NULL full_subtractor_1bit.v vlg3E/full__subtractor__1bit.bin 1635741400
+MO demux12 NULL demux12.v vlg0A/demux12.bin 1635741400
+MO comparator_4bit_demux12 NULL comparator_4bit_demux12.v vlg3F/comparator__4bit__demux12.bin 1635741400
+MO full_subtractor_4bit NULL full_subtractor_4bit.v vlg35/full__subtractor__4bit.bin 1635741400

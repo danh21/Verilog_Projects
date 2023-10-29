@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_reduced_area/ra4.xst" -ofn "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_reduced_area/ra4.syr" 

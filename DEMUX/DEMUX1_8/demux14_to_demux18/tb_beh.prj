@@ -1,0 +1,4 @@
+verilog work "demux14_enable.v"
+verilog work "demux18_enable.v"
+verilog work "tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

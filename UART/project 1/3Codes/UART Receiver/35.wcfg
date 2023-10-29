@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ACER/OneDrive/Desktop/Xilinx_Project/ba/UART_RX_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="UART_RX_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/i_Clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_Clock</obj_property>
+      <obj_property name="ObjectShortName">i_Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/i_RX_Serial" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_RX_Serial</obj_property>
+      <obj_property name="ObjectShortName">i_RX_Serial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/o_RX_DV" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_RX_DV</obj_property>
+      <obj_property name="ObjectShortName">o_RX_DV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/o_RX_Byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_RX_Byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_RX_Byte[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/r_Clock_Count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_Clock_Count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_Clock_Count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/r_Bit_Index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_Bit_Index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_Bit_Index[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/r_RX_Byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_RX_Byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_RX_Byte[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/r_RX_DV" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_RX_DV</obj_property>
+      <obj_property name="ObjectShortName">r_RX_DV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/r_SM_Main" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_SM_Main[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_SM_Main[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/CLKS_PER_BIT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKS_PER_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLKS_PER_BIT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/IDLE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/RX_START_BIT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RX_START_BIT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_START_BIT[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/RX_DATA_BITS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RX_DATA_BITS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_DATA_BITS[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/RX_STOP_BIT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RX_STOP_BIT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_STOP_BIT[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RX_TB/UART_RX_INST/CLEANUP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CLEANUP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CLEANUP[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

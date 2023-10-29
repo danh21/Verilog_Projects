@@ -1,0 +1,4 @@
+verilog work "mux4_1.v"
+verilog work "counter_ud.v"
+verilog work "clock_div.v"
+verilog work "led_counter.v"

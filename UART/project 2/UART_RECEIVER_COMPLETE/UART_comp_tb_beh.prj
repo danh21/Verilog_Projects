@@ -1,0 +1,6 @@
+verilog work "UART_receiver.v"
+verilog work "FIFO_rx.v"
+verilog work "Baud_rate_generator.v"
+verilog work "UART_comp.v"
+verilog work "UART_comp_tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

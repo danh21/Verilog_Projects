@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/TT FPGA/project/ch2/DECODER4_16/decoder4to16_high/tb_isim_beh.exe" -prj "D:/cd/TT FPGA/project/ch2/DECODER4_16/decoder4to16_high/tb_beh.prj" "work.tb" "work.glbl" 

@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/TT FPGA/project/tuan 6/ic74595/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/TT FPGA/project/tuan 6/ic74595/xst"
+elaborate
+-ifn FFD.prj
+-ifmt mixed

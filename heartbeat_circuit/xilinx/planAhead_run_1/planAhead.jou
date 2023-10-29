@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed May 05 22:05:28 2021
+# Process ID: 10352
+# Log file: D:/cd/thiet ke he thong va vi mach/heartbeat_circuit/planAhead_run_1/planAhead.log
+# Journal file: D:/cd/thiet ke he thong va vi mach/heartbeat_circuit/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/cd/thiet ke he thong va vi mach/heartbeat_circuit/pa.fromNetlist.tcl}

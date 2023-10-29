@@ -1,0 +1,429 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Reading design: Shift_Register.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Shift_Register.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Shift_Register"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : Shift_Register
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : LUT
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Shift_SISO.v" in library work
+Compiling verilog file "clock_div.v" in library work
+Module <Shift_SISO> compiled
+Compiling verilog file "Shift_Register.v" in library work
+Module <clock_div> compiled
+Module <Shift_Register> compiled
+No errors in compilation
+Analysis of file <"Shift_Register.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Shift_Register> in library <work>.
+
+Analyzing hierarchy for module <clock_div> in library <work> with parameters.
+	M = "00000000000000000000000000001010"
+	N = "00000000000000000000000000000100"
+
+Analyzing hierarchy for module <Shift_SISO> in library <work> with parameters.
+	N = "00000000000000000000000000000100"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Shift_Register>.
+Module <Shift_Register> is correct for synthesis.
+ 
+Analyzing module <clock_div> in library <work>.
+	M = 32'sb00000000000000000000000000001010
+	N = 32'sb00000000000000000000000000000100
+Module <clock_div> is correct for synthesis.
+ 
+Analyzing module <Shift_SISO> in library <work>.
+	N = 32'sb00000000000000000000000000000100
+Module <Shift_SISO> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock_div>.
+    Related source file is "clock_div.v".
+    Found 4-bit comparator less for signal <q$cmp_lt0000> created at line 38.
+    Found 4-bit adder for signal <r_next$addsub0000> created at line 36.
+    Found 4-bit register for signal <r_reg>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <clock_div> synthesized.
+
+
+Synthesizing Unit <Shift_SISO>.
+    Related source file is "Shift_SISO.v".
+    Found 4-bit register for signal <r_reg>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <Shift_SISO> synthesized.
+
+
+Synthesizing Unit <Shift_Register>.
+    Related source file is "Shift_Register.v".
+Unit <Shift_Register> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 2
+ 4-bit register                                        : 2
+# Comparators                                          : 1
+ 4-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Comparators                                          : 1
+ 4-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Shift_Register> ...
+
+Optimizing unit <clock_div> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Shift_Register, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <Shift_Register> :
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <SISO/r_reg_0> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <Shift_Register> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Shift_Register.ngr
+Top Level Output File Name         : Shift_Register
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 4
+
+Cell Usage :
+# BELS                             : 5
+#      INV                         : 1
+#      LUT3                        : 1
+#      LUT4                        : 3
+# FlipFlops/Latches                : 8
+#      FDC                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3
+#      IBUF                        : 2
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                        4  out of    960     0%  
+ Number of Slice Flip Flops:              8  out of   1920     0%  
+ Number of 4 input LUTs:                  5  out of   1920     0%  
+ Number of IOs:                           4
+ Number of bonded IOBs:                   4  out of     66     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_out(clockdivider/q1:O)         | NONE(*)(SISO/r_reg_3)  | 4     |
+clk                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.289ns (Maximum Frequency: 436.862MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_out'
+  Clock period: 1.139ns (frequency: 877.963MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.139ns (Levels of Logic = 0)
+  Source:            SISO/r_reg_3 (FF)
+  Destination:       SISO/r_reg_2 (FF)
+  Source Clock:      clk_out rising
+  Destination Clock: clk_out rising
+
+  Data Path: SISO/r_reg_3 to SISO/r_reg_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.357  SISO/r_reg_3 (SISO/r_reg_3)
+     FDC:D                     0.268          SISO/r_reg_2
+    ----------------------------------------
+    Total                      1.139ns (0.782ns logic, 0.357ns route)
+                                       (68.7% logic, 31.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.289ns (frequency: 436.862MHz)
+  Total number of paths / destination ports: 12 / 4
+-------------------------------------------------------------------------
+Delay:               2.289ns (Levels of Logic = 1)
+  Source:            clockdivider/r_reg_0 (FF)
+  Destination:       clockdivider/r_reg_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clockdivider/r_reg_0 to clockdivider/r_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.538  clockdivider/r_reg_0 (clockdivider/r_reg_0)
+     INV:I->O              1   0.612   0.357  clockdivider/r_next<0>1_INV_0 (clockdivider/r_next<0>)
+     FDC:D                     0.268          clockdivider/r_reg_0
+    ----------------------------------------
+    Total                      2.289ns (1.394ns logic, 0.895ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_out'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            s_in (PAD)
+  Destination:       SISO/r_reg_3 (FF)
+  Destination Clock: clk_out rising
+
+  Data Path: s_in to SISO/r_reg_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  s_in_IBUF (s_in_IBUF)
+     FDC:D                     0.268          SISO/r_reg_3
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_out'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            SISO/r_reg_0 (FF)
+  Destination:       s_out (PAD)
+  Source Clock:      clk_out rising
+
+  Data Path: SISO/r_reg_0 to s_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.357  SISO/r_reg_0 (SISO/r_reg_0)
+     OBUF:I->O                 3.169          s_out_OBUF (s_out)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.47 secs
+ 
+--> 
+
+Total memory usage is 4497500 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

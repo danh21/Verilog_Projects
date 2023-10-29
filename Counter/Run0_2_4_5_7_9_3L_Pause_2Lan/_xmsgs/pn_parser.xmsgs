@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/cd/TT FPGA/project/tuan 4/Run0_2_4_5_7_9_3L_Pause_2Lan/Counter4bits_3Run_2Pause.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/cd/TT FPGA/project/tuan 4/Run0_2_4_5_7_9_3L_Pause_2Lan/Enable.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/cd/TT FPGA/project/tuan 4/Run0_2_4_5_7_9_3L_Pause_2Lan/Even_Odd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/cd/TT FPGA/project/tuan 4/Run0_2_4_5_7_9_3L_Pause_2Lan/SynCounter4bits.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

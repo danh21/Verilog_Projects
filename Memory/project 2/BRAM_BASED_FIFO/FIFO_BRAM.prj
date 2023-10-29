@@ -1,0 +1,5 @@
+verilog work "Write_CTRL.v"
+verilog work "Read_CTRL.v"
+verilog work "FIFO_Flag.v"
+verilog work "Dual_port_ram.v"
+verilog work "FIFO_BRAM.v"

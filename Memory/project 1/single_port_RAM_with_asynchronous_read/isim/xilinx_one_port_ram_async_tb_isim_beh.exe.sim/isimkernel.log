@@ -1,0 +1,29 @@
+Command line:
+   xilinx_one_port_ram_async_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56338
+
+Wed Jul 28 23:07:32 2021
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5163.1 Meg
+
+ Total Signals          : 19
+ Total Nets             : 25
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 436
+Total Line Count : 34
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5163.1 Meg
+
+Wed Jul 28 23:07:55 2021
+

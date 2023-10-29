@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/ch2/DECODER2_4/decoder24_enable_low_if/tb_isim_beh.exe" -prj "D:/cd/ch2/DECODER2_4/decoder24_enable_low_if/tb_beh.prj" "work.tb" "work.glbl" 

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CSAM_4bit_by_4bit_unsigned.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="array4.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="array4.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="array4.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="array4.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="array4.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="array4.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="array4.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="array4.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="array4_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="array4_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="array4_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="array4_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="array4_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="array4_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="array4_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="array4_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ha.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ha.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ha.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ha.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ha.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ha.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ha.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ha.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ha_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ha_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ha_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1625414089" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1625414089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625414089" xil_pn:in_ck="-6066729499389606657" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1625414089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PP.v"/>
+      <outfile xil_pn:name="array4.v"/>
+      <outfile xil_pn:name="array4_tb.v"/>
+      <outfile xil_pn:name="fa.v"/>
+      <outfile xil_pn:name="ha.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1626007909" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6760988038198602303" xil_pn:start_ts="1626007909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1626007909" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1439241400694600995" xil_pn:start_ts="1626007909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625414092" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8127074957878950576" xil_pn:start_ts="1625414092">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625414092" xil_pn:in_ck="-6066729499389606657" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1625414092">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PP.v"/>
+      <outfile xil_pn:name="array4.v"/>
+      <outfile xil_pn:name="array4_tb.v"/>
+      <outfile xil_pn:name="fa.v"/>
+      <outfile xil_pn:name="ha.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1626007911" xil_pn:in_ck="-6066729499389606657" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8969303561464445773" xil_pn:start_ts="1626007909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="array4_tb_beh.prj"/>
+      <outfile xil_pn:name="array4_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1626008000" xil_pn:in_ck="-6600581494359732167" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7039794500094606288" xil_pn:start_ts="1626007999">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="array4_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1625409642" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1625409642">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625413884" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4144236094619079624" xil_pn:start_ts="1625413884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625413884" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8127074957878950576" xil_pn:start_ts="1625413884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625409642" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1625409642">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625413884" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7482539311571553942" xil_pn:start_ts="1625413884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625409642" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1625409642">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625413884" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2167063385247440198" xil_pn:start_ts="1625413884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1625413959" xil_pn:in_ck="-6802742896790440237" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3048249347813061203" xil_pn:start_ts="1625413952">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="array4.lso"/>
+      <outfile xil_pn:name="array4.ngc"/>
+      <outfile xil_pn:name="array4.ngr"/>
+      <outfile xil_pn:name="array4.prj"/>
+      <outfile xil_pn:name="array4.stx"/>
+      <outfile xil_pn:name="array4.syr"/>
+      <outfile xil_pn:name="array4.xst"/>
+      <outfile xil_pn:name="array4_xst.xrpt"/>
+      <outfile xil_pn:name="ha.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

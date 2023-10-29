@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/A_4operand_4bit_multi_operand_adder/fa.xst" -ofn "D:/cd/thiet ke he thong va vi mach/A_4operand_4bit_multi_operand_adder/fa.syr" 

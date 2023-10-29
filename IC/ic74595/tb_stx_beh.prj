@@ -1,0 +1,5 @@
+verilog isim_temp "FFRS.v"
+verilog isim_temp "FFD.v"
+verilog isim_temp "IC74595.v"
+verilog isim_temp "tb.v"
+verilog isim_temp "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

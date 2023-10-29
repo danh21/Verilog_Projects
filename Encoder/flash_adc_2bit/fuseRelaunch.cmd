@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/ref/ch2/encoder/flash_adc_2bit/tb_isim_beh.exe" -prj "D:/cd/ref/ch2/encoder/flash_adc_2bit/tb_beh.prj" "work.tb" "work.glbl" 

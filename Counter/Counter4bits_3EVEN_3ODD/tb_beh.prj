@@ -1,0 +1,5 @@
+verilog work "SynCounter4bits.v"
+verilog work "Enable.v"
+verilog work "Counter4bits_3Run_2Pause.v"
+verilog work "tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

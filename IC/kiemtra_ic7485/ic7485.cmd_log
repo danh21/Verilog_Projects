@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/kiemtra_ic7485/ic7485.xst" -ofn "D:/cd/TT FPGA/kiemtra_ic7485/ic7485.syr" 

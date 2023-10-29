@@ -1,0 +1,8 @@
+verilog isim_temp "mux4_1.v"
+verilog isim_temp "Counter8bs.v"
+verilog isim_temp "Counter2bs.v"
+verilog isim_temp "clock_div.v"
+verilog isim_temp "button.v"
+verilog isim_temp "FSM.v"
+verilog isim_temp "tb.v"
+verilog isim_temp "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

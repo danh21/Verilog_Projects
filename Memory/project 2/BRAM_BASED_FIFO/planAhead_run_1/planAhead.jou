@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Aug 04 22:49:54 2021
+# Process ID: 12220
+# Log file: D:/cd/thiet ke he thong va vi mach/PONG CHU/XlLlNX SPARTAN-3 SPECIFIC MEMORY/project 2/BRAM_BASED_FIFO/planAhead_run_1/planAhead.log
+# Journal file: D:/cd/thiet ke he thong va vi mach/PONG CHU/XlLlNX SPARTAN-3 SPECIFIC MEMORY/project 2/BRAM_BASED_FIFO/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/cd/thiet ke he thong va vi mach/PONG CHU/XlLlNX SPARTAN-3 SPECIFIC MEMORY/project 2/BRAM_BASED_FIFO/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

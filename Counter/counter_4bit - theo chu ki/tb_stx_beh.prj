@@ -1,0 +1,5 @@
+verilog isim_temp "syn_counter_4bit.v"
+verilog isim_temp "enable.v"
+verilog isim_temp "counter.v"
+verilog isim_temp "tb.v"
+verilog isim_temp "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

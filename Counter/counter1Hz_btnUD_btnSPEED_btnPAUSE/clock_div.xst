@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/TT FPGA/project/tuan 7/counter1Hz_btnUD_btnSPEED_btnPAUSE/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/TT FPGA/project/tuan 7/counter1Hz_btnUD_btnSPEED_btnPAUSE/xst"
+elaborate
+-ifn clock_div.prj
+-ifmt mixed

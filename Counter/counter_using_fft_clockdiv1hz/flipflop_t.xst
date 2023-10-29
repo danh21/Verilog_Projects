@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/ref/ch3/counter_using_fft_clockdiv1hz/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/ref/ch3/counter_using_fft_clockdiv1hz/xst"
+elaborate
+-ifn flipflop_t.prj
+-ifmt mixed

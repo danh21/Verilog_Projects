@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/ref/ch2/DEMUX1_16/demux14_to_demux116/tb_isim_beh.exe" -prj "D:/cd/ref/ch2/DEMUX1_16/demux14_to_demux116/tb_beh.prj" "work.tb" "work.glbl" 

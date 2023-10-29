@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Jun 30 00:29:40 2021
+# Process ID: 17292
+# Log file: D:/cd/thiet ke he thong va vi mach/mux_2_to_1/planAhead_run_1/planAhead.log
+# Journal file: D:/cd/thiet ke he thong va vi mach/mux_2_to_1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/cd/thiet ke he thong va vi mach/mux_2_to_1/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

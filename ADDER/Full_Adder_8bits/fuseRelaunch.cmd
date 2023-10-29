@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/TT FPGA/project/ch1/Full_Adder_8bits/tb_isim_beh.exe" -prj "D:/cd/TT FPGA/project/ch1/Full_Adder_8bits/tb_beh.prj" "work.tb" "work.glbl" 

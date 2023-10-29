@@ -1,0 +1,29 @@
+Command line:
+   array4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57096
+
+Sun Jul 11 19:50:56 2021
+
+
+ Elaboration Time: 0.390625 sec
+
+ Current Memory Usage: 5163.18 Meg
+
+ Total Signals          : 89
+ Total Nets             : 65
+ Total Signal Drivers   : 49
+ Total Blocks           : 15
+ Total Primitive Blocks : 14
+ Total Processes        : 50
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 145
+Total Line Count : 30
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 5163.18 Meg
+
+Sun Jul 11 19:51:02 2021
+

@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/TT FPGA/project/tuan 5/led8_4sw/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/TT FPGA/project/tuan 5/led8_4sw/xst"
+elaborate
+-ifn Shift_SIPO_2.prj
+-ifmt mixed

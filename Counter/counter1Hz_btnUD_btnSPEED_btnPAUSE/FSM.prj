@@ -1,0 +1,6 @@
+verilog work "mux4_1.v"
+verilog work "Counter8bs.v"
+verilog work "Counter2bs.v"
+verilog work "clock_div.v"
+verilog work "button.v"
+verilog work "FSM.v"

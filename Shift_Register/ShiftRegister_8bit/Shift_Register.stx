@@ -1,0 +1,49 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/cd/TT FPGA/project/tuan 8/bai2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to D:/cd/TT FPGA/project/tuan 8/bai2/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "FFD.v" in library work
+Compiling verilog file "shift_register_8b_SIPO.v" in library work
+Module <FFD> compiled
+Compiling verilog file "mux4to1.v" in library work
+Module <shift_register_8b_SIPO_1> compiled
+Compiling verilog file "mux2to1.v" in library work
+Module <mux4to1> compiled
+Compiling verilog file "LedOnGra_RL.v" in library work
+Module <mux2to1> compiled
+Compiling verilog file "clock_div.v" in library work
+Module <LedOnGra_RL> compiled
+Compiling verilog file "Shift_Register.v" in library work
+Module <clock_div> compiled
+Module <Shift_Register> compiled
+No errors in compilation
+Analysis of file <"Shift_Register.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> 
+
+Total memory usage is 4468140 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

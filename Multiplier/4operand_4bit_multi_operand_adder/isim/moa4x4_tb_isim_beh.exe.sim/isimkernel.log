@@ -1,0 +1,29 @@
+Command line:
+   moa4x4_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52115
+
+Sat Aug 21 11:12:56 2021
+
+
+ Elaboration Time: 0.421875 sec
+
+ Current Memory Usage: 5162.52 Meg
+
+ Total Signals          : 69
+ Total Nets             : 47
+ Total Signal Drivers   : 27
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 29
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 144
+Total Line Count : 45
+
+ Total Simulation Time: 0.453125 sec
+
+ Current Memory Usage: 5005.23 Meg
+
+Sat Aug 21 11:14:21 2021
+

@@ -1,0 +1,24 @@
+Running: D:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/UART_RX_TB_isim_beh.exe -prj D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/UART_RX_TB_beh.prj work.UART_RX_TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" into library work
+WARNING:HDLCompiler:693 - "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 18: Parameter declaration becomes local in UART_RX with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 19: Parameter declaration becomes local in UART_RX with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 20: Parameter declaration becomes local in UART_RX with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 21: Parameter declaration becomes local in UART_RX with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 22: Parameter declaration becomes local in UART_RX with formal parameter declaration list
+Analyzing Verilog file "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/UART_RX_tb.v" into library work
+Analyzing Verilog file "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module UART_RX(CLKS_PER_BIT=217)
+Compiling module UART_RX_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/UART_RX_TB_isim_beh.exe
+Fuse Memory Usage: 28456 KB
+Fuse CPU Usage: 358 ms

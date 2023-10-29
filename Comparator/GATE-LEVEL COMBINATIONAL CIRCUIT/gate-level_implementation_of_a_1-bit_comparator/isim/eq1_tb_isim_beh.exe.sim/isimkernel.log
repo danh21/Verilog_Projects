@@ -1,0 +1,29 @@
+Command line:
+   eq1_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52479
+
+Sun Jul 18 11:06:59 2021
+
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 5162.53 Meg
+
+ Total Signals          : 19
+ Total Nets             : 18
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 100
+Total Line Count : 31
+
+ Total Simulation Time: 0.40625 sec
+
+ Current Memory Usage: 5162.53 Meg
+
+Sun Jul 18 11:07:04 2021
+

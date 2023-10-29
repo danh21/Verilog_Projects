@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/ref/ch3/counter_4bit/syn_counter_4bit.xst" -ofn "D:/cd/ref/ch3/counter_4bit/syn_counter_4bit.syr" 

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Booth.ngc" Booth.ngd  
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.xst" -ofn "D:/cd/thiet ke he thong va vi mach/algorithm_of_Booth/Booth.syr" 

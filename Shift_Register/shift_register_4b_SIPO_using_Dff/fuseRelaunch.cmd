@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/cd/TT FPGA/project/tuan 5/shift_register_4b_SIPO_using_Dff/tb_isim_beh.exe" -prj "D:/cd/TT FPGA/project/tuan 5/shift_register_4b_SIPO_using_Dff/tb_beh.prj" "work.tb" "work.glbl" 

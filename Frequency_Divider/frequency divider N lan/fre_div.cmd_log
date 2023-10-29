@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/fre_div_100khz_10khz/fre_div.xst" -ofn "D:/cd/thiet ke he thong va vi mach/fre_div_100khz_10khz/fre_div.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.xst" -ofn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.xst" -ofn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.xst" -ofn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.xst" -ofn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.xst" -ofn "D:/cd/thiet ke he thong va vi mach/BAI TAP/frequency_divider_10_lan/fre_div.syr" 

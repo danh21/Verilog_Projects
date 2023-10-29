@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 5/LED_sangdan_tatdan_sw_lr_rl/Shift_Register.xst" -ofn "D:/cd/TT FPGA/project/tuan 5/LED_sangdan_tatdan_sw_lr_rl/Shift_Register.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/ch2/DECODER2_4/decoder24_enable_low_case/decoder24_enable_low_case.xst" -ofn "D:/cd/TT FPGA/project/ch2/DECODER2_4/decoder24_enable_low_case/decoder24_enable_low_case.syr" 

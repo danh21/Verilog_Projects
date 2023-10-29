@@ -1,0 +1,4 @@
+verilog work "fa.v"
+verilog work "moa4x4.v"
+verilog work "moa4x4_tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

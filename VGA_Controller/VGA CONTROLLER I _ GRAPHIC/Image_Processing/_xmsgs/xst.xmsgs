@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="886" delta="new" >"D:\cd\thiet ke he thong va vi mach\PONG CHU\VGA CONTROLLER I _ GRAPHIC\Image_Processing\image_read.v" Line 58: Vector size is larger than 2**<arg fmt="%d" index="1">16</arg> bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="886" delta="new" >"D:\cd\thiet ke he thong va vi mach\PONG CHU\VGA CONTROLLER I _ GRAPHIC\Image_Processing\image_read.v" Line 59: Vector size is larger than 2**<arg fmt="%d" index="1">16</arg> bits
+</msg>
+
+</messages>

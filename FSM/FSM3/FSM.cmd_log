@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 8/bai3/FSM.xst" -ofn "D:/cd/TT FPGA/project/tuan 8/bai3/FSM.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 8/bai3/FSM.xst" -ofn "D:/cd/TT FPGA/project/tuan 8/bai3/FSM.syr" 

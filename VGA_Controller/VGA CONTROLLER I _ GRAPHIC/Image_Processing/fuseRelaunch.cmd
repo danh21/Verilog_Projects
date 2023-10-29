@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/cd/thiet ke he thong va vi mach/PONG CHU/VGA CONTROLLER I _ GRAPHIC/Image_Processing/tb_simulation_isim_beh.exe" -prj "D:/cd/thiet ke he thong va vi mach/PONG CHU/VGA CONTROLLER I _ GRAPHIC/Image_Processing/tb_simulation_beh.prj" "work.tb_simulation" "work.glbl" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/ref/ch3/frequency_0.1hz_1hz_10hz_100hz/counter.xst" -ofn "D:/cd/ref/ch3/frequency_0.1hz_1hz_10hz_100hz/counter.syr" 

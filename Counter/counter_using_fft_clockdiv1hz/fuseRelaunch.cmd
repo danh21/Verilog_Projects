@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/ref/ch3/counter_using_fft_clockdiv1hz/tb_isim_beh.exe" -prj "D:/cd/ref/ch3/counter_using_fft_clockdiv1hz/tb_beh.prj" "work.tb" "work.glbl" 

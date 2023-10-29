@@ -1,0 +1,3 @@
+verilog work "FFRS.v"
+verilog work "FFD.v"
+verilog work "IC74595.v"

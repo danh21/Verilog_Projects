@@ -1,0 +1,5 @@
+verilog work "counter_4bit.v"
+verilog work "clock_div.v"
+verilog work "syn_counter_4bit.v"
+verilog work "tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

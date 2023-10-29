@@ -1,0 +1,5 @@
+verilog work "decoder24_high.v"
+verilog work "decoder38_high.v"
+verilog work "decoder4to16_high.v"
+verilog work "tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

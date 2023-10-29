@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/ref/ch3/counter4b_using_freqdiv_1hz/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/ref/ch3/counter4b_using_freqdiv_1hz/xst"
+elaborate
+-ifn syn_counter_4bit.prj
+-ifmt mixed

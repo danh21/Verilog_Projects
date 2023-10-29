@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/PONG CHU/FSMD/Debouncing_circuit_with_an_explicit_data_path_component/debouncing.xst" -ofn "D:/cd/thiet ke he thong va vi mach/PONG CHU/FSMD/Debouncing_circuit_with_an_explicit_data_path_component/debouncing.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/PONG CHU/FSMD/Debouncing_circuit_with_an_explicit_data_path_component/debouncing.xst" -ofn "D:/cd/thiet ke he thong va vi mach/PONG CHU/FSMD/Debouncing_circuit_with_an_explicit_data_path_component/debouncing.syr" 

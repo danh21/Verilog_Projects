@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/TT FPGA/project/tuan 4/ud_counter8b_sw_8freq_pause_inv - even_odd/tb_isim_beh.exe" -prj "D:/cd/TT FPGA/project/tuan 4/ud_counter8b_sw_8freq_pause_inv - even_odd/tb_beh.prj" "work.tb" "work.glbl" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/halfadder_convert_to_fulladder/full_adder.xst" -ofn "D:/cd/thiet ke he thong va vi mach/halfadder_convert_to_fulladder/full_adder.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/halfadder_convert_to_fulladder/full_adder.xst" -ofn "D:/cd/thiet ke he thong va vi mach/halfadder_convert_to_fulladder/full_adder.syr" 

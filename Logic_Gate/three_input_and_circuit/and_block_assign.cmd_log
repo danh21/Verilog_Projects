@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/RT-LEVEL COMBINATIONAL CIRCUIT/three_input_and_circuit/and_block_assign.xst" -ofn "D:/cd/thiet ke he thong va vi mach/RT-LEVEL COMBINATIONAL CIRCUIT/three_input_and_circuit/and_block_assign.syr" 

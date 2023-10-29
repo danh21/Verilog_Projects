@@ -1,0 +1,6 @@
+verilog isim_temp "UART_receiver.v"
+verilog isim_temp "FIFO_rx.v"
+verilog isim_temp "Baud_rate_generator.v"
+verilog isim_temp "UART_comp.v"
+verilog isim_temp "UART_comp_tb.v"
+verilog isim_temp "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

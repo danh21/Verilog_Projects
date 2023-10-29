@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/UART_RX_TB_isim_beh.exe" -prj "D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/UART_RX_TB_beh.prj" "work.UART_RX_TB" "work.glbl" 

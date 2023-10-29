@@ -1,0 +1,39 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/cd/TT FPGA/project/tuan 8/bai2/tb_isim_beh.exe" -prj "D:/cd/TT FPGA/project/tuan 8/bai2/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/FFD.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/shift_register_8b_SIPO_2.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/shift_register_8b_SIPO.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/mux4to1.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/mux2to1.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/Led_OnOff_Gra_InsideOut.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/LedOnGra_RL.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/LED2_OnOff_Interleaved_RL.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/LED1_OnOff_Interleaved_RL.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/clock_div.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/Shift_Register.v" into library work
+Analyzing Verilog file "D:/cd/TT FPGA/project/tuan 8/bai2/tb.v" into library work
+Analyzing Verilog file "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module clock_div
+Compiling module mux2to1
+Compiling module FFD
+Compiling module shift_register_8b_SIPO
+Compiling module LedOnGra_RL
+Compiling module LED1_OnOff_Interleaved_RL
+Compiling module LED2_OnOff_Interleaved_RL
+Compiling module shift_register_8b_SIPO_2
+Compiling module Led_OnOff_Gra_InsideOut
+Compiling module mux4to1
+Compiling module Shift_Register
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable D:/cd/TT FPGA/project/tuan 8/bai2/tb_isim_beh.exe
+Fuse Memory Usage: 27636 KB
+Fuse CPU Usage: 265 ms

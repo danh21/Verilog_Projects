@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/Verilog/Project/ADDER/FA4bits_use_FA1bit/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/Verilog/Project/ADDER/FA4bits_use_FA1bit/xst"
+elaborate
+-ifn full_adder_4bit.prj
+-ifmt mixed

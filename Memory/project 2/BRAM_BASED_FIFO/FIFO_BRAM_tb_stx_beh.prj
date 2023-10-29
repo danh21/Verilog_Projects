@@ -1,0 +1,7 @@
+verilog isim_temp "Write_CTRL.v"
+verilog isim_temp "Read_CTRL.v"
+verilog isim_temp "FIFO_Flag.v"
+verilog isim_temp "Dual_port_ram.v"
+verilog isim_temp "FIFO_BRAM.v"
+verilog isim_temp "FIFO_BRAM_tb.v"
+verilog isim_temp "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

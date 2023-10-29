@@ -1,0 +1,4 @@
+verilog work "Booth.v"
+verilog work "BoothTop.v"
+verilog work "BoothTop_tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

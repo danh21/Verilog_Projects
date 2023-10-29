@@ -1,0 +1,4 @@
+verilog work "adder_4bit.v"
+verilog work "binary_multiplier.v"
+verilog work "binary_multiplier_tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

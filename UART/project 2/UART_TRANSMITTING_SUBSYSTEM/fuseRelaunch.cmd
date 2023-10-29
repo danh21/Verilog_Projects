@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/cd/thiet ke he thong va vi mach/PONG CHU/UART/UART_TRANSMITTING_SUBSYSTEM/sub_tb_isim_beh.exe" -prj "D:/cd/thiet ke he thong va vi mach/PONG CHU/UART/UART_TRANSMITTING_SUBSYSTEM/sub_tb_beh.prj" "work.sub_tb" "work.glbl" 

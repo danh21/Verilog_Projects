@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/ref/ch3/counter_using_fft_clockdiv1hz/counter4bit.xst" -ofn "D:/cd/ref/ch3/counter_using_fft_clockdiv1hz/counter4bit.syr" 

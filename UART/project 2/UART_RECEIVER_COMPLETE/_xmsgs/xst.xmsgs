@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\cd\thiet ke he thong va vi mach\PONG CHU\UART\UART RECEIVING SUBSYSTEM\project 2\UART_RECEIVER_COMPLETE\UART_comp.v" Line 35: Input port <arg fmt="%s" index="1">rd</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">rd</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">F</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\cd\thiet ke he thong va vi mach\PONG CHU\UART\UART RECEIVING SUBSYSTEM\project 2\UART_RECEIVER_COMPLETE\UART_comp.v</arg>&quot; line <arg fmt="%s" index="2">35</arg>: Output port &lt;<arg fmt="%s" index="3">r</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">F</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="3015" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">mem</arg>&gt; may be accessed with an index that does not cover the full array size or with a negative index. The RAM size is reduced to the index upper access or for only positive index values.
+</msg>
+
+<msg type="warning" file="Xst" num="3001" delta="old" >This design contains one or more registers or latches with an active
+asynchronous set and asynchronous reset. While this circuit can be built,
+it creates a sub-optimal implementation in terms of area, power and
+performance. For a more optimal implementation Xilinx highly recommends
+one of the following:
+
+       1) Remove either the set or reset from all registers and latches if
+          not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">full</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO_rx</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">full</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIFO_rx</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">wpt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_rx</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

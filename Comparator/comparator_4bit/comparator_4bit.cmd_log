@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/comparator_4bit/comparator_4bit.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/comparator_4bit/comparator_4bit.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/so sanh/comparator_4bit/comparator_4bit.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/so sanh/comparator_4bit/comparator_4bit.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/so sanh/comparator_4bit/comparator_4bit.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/so sanh/comparator_4bit/comparator_4bit.syr" 

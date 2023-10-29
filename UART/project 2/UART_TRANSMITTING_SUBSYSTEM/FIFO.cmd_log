@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/PONG CHU/UART/UART_TRANSMITTING_SUBSYSTEM/FIFO.xst" -ofn "D:/cd/thiet ke he thong va vi mach/PONG CHU/UART/UART_TRANSMITTING_SUBSYSTEM/FIFO.syr" 

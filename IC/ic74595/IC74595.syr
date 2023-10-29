@@ -1,0 +1,445 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: IC74595.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "IC74595.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "IC74595"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : IC74595
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "FFRS.v" in library work
+Compiling verilog file "FFD.v" in library work
+Module <FFRS> compiled
+Compiling verilog file "IC74595.v" in library work
+Module <FFD> compiled
+Module <IC74595> compiled
+No errors in compilation
+Analysis of file <"IC74595.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <IC74595> in library <work>.
+
+Analyzing hierarchy for module <FFD> in library <work>.
+
+Analyzing hierarchy for module <FFRS> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <IC74595>.
+WARNING:Xst:852 - "IC74595.v" line 36: Unconnected input port 'reset' of instance 'RS8' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 37: Unconnected input port 'reset' of instance 'RS9' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 38: Unconnected input port 'reset' of instance 'RS10' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 39: Unconnected input port 'reset' of instance 'RS11' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 40: Unconnected input port 'reset' of instance 'RS12' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 41: Unconnected input port 'reset' of instance 'RS13' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 42: Unconnected input port 'reset' of instance 'RS14' is tied to GND.
+WARNING:Xst:852 - "IC74595.v" line 43: Unconnected input port 'reset' of instance 'RS15' is tied to GND.
+Module <IC74595> is correct for synthesis.
+ 
+Analyzing module <FFD> in library <work>.
+Module <FFD> is correct for synthesis.
+ 
+Analyzing module <FFRS> in library <work>.
+Module <FFRS> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <FFD>.
+    Related source file is "FFD.v".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FFD> synthesized.
+
+
+Synthesizing Unit <FFRS>.
+    Related source file is "FFRS.v".
+    Found 1-bit tristate buffer for signal <Q>.
+    Found 1-bit register for signal <Mtridata_Q>.
+    Found 1-bit register for signal <Mtrien_Q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Tristate(s).
+Unit <FFRS> synthesized.
+
+
+Synthesizing Unit <IC74595>.
+    Related source file is "IC74595.v".
+WARNING:Xst:1780 - Signal <qbar<15:8>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit tristate buffer for signal <Qa>.
+    Found 1-bit tristate buffer for signal <Qb>.
+    Found 1-bit tristate buffer for signal <Qc>.
+    Found 1-bit tristate buffer for signal <Qd>.
+    Found 1-bit tristate buffer for signal <Qe>.
+    Found 1-bit tristate buffer for signal <Qf>.
+    Found 1-bit tristate buffer for signal <Qg>.
+    Found 1-bit tristate buffer for signal <Qh>.
+    Summary:
+	inferred   8 Tristate(s).
+Unit <IC74595> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 31
+ 1-bit register                                        : 31
+# Tristates                                            : 23
+ 1-bit tristate buffer                                 : 23
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2042 - Unit IC74595: 15 internal tristates are replaced by logic (pull-up yes): N2, q<10>, q<11>, q<12>, q<13>, q<14>, q<15>, q<1>, q<2>, q<3>, q<4>, q<5>, q<6>, q<8>, q<9>.
+
+Optimizing unit <IC74595> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block IC74595, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : IC74595.ngr
+Top Level Output File Name         : IC74595
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 18
+#      INV                         : 2
+#      LUT2                        : 15
+#      VCC                         : 1
+# FlipFlops/Latches                : 31
+#      FDC                         : 1
+#      FDCE                        : 30
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 12
+#      IBUF                        : 3
+#      OBUFT                       : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                       27  out of    960     2%  
+ Number of Slice Flip Flops:             31  out of   1920     1%  
+ Number of 4 input LUTs:                 17  out of   1920     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of     66    21%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SRCLK                              | BUFGP                  | 15    |
+RCLK                               | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+N1(XST_VCC:P)                      | NONE(RS10/Mtridata_Q)  | 16    |
+D1/reset_inv(D1/reset_inv1_INV_0:O)| NONE(D1/Q)             | 15    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.617ns (Maximum Frequency: 382.124MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 5.161ns
+   Maximum combinational path delay: 4.918ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SRCLK'
+  Clock period: 2.617ns (frequency: 382.124MHz)
+  Total number of paths / destination ports: 26 / 14
+-------------------------------------------------------------------------
+Delay:               2.617ns (Levels of Logic = 1)
+  Source:            RS6/Mtridata_Q (FF)
+  Destination:       RS7/Mtrien_Q (FF)
+  Source Clock:      SRCLK rising
+  Destination Clock: SRCLK rising
+
+  Data Path: RS6/Mtridata_Q to RS7/Mtrien_Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.514   0.509  RS6/Mtridata_Q (RS6/Mtridata_Q)
+     LUT2:I0->O            4   0.612   0.499  RS14/Mtridata_Q_not00011 (RS14/Mtridata_Q_not0001)
+     FDCE:CE                   0.483          RS7/Mtridata_Q
+    ----------------------------------------
+    Total                      2.617ns (1.609ns logic, 1.008ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SRCLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            SER (PAD)
+  Destination:       D1/Q (FF)
+  Destination Clock: SRCLK rising
+
+  Data Path: SER to D1/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SER_IBUF (SER_IBUF)
+     FDC:D                     0.268          D1/Q
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'RCLK'
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Offset:              5.161ns (Levels of Logic = 2)
+  Source:            RS8/Mtridata_Q (FF)
+  Destination:       Qa (PAD)
+  Source Clock:      RCLK rising
+
+  Data Path: RS8/Mtridata_Q to Qa
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.514   0.509  RS8/Mtridata_Q (RS8/Mtridata_Q)
+     LUT2:I0->O            1   0.612   0.357  q<8>LogicTrst1 (q<8>)
+     OBUFT:I->O                3.169          Qa_OBUFT (Qa)
+    ----------------------------------------
+    Total                      5.161ns (4.295ns logic, 0.866ns route)
+                                       (83.2% logic, 16.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SRCLK'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            RS7/Mtridata_Q (FF)
+  Destination:       Qh_bar (PAD)
+  Source Clock:      SRCLK rising
+
+  Data Path: RS7/Mtridata_Q to Qh_bar
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.514   0.380  RS7/Mtridata_Q (RS7/Mtridata_Q)
+     OBUFT:I->O                3.169          Qh_bar_OBUFT (Qh_bar)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Delay:               4.918ns (Levels of Logic = 2)
+  Source:            OE_bar (PAD)
+  Destination:       Qa (PAD)
+
+  Data Path: OE_bar to Qa
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.106   0.643  OE_bar_IBUF (OE_bar_IBUF)
+     OBUFT:T->O                3.169          Qa_OBUFT (Qa)
+    ----------------------------------------
+    Total                      4.918ns (4.275ns logic, 0.643ns route)
+                                       (86.9% logic, 13.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.37 secs
+ 
+--> 
+
+Total memory usage is 4513704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

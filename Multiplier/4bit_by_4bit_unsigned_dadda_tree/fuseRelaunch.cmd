@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_dadda_tree/dadda4_tb_isim_beh.exe" -prj "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_dadda_tree/dadda4_tb_beh.prj" "work.dadda4_tb" "work.glbl" 

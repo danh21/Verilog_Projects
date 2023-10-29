@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/ch2/ENCODER4_2/encoder42_high_if/encoder42_high_if.xst" -ofn "D:/cd/TT FPGA/project/ch2/ENCODER4_2/encoder42_high_if/encoder42_high_if.syr" 

@@ -1,0 +1,7 @@
+verilog work "FFD.v"
+verilog work "shift_register_8b_SIPO.v"
+verilog work "mux4to1.v"
+verilog work "mux2to1.v"
+verilog work "LedOnGra_RL.v"
+verilog work "clock_div.v"
+verilog work "Shift_Register.v"

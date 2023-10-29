@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/Pong chu/GATE-LEVEL COMBINATIONAL CIRCUIT/implementation_with_Verilog_primitive/eq1_primitive.xst" -ofn "D:/cd/thiet ke he thong va vi mach/Pong chu/GATE-LEVEL COMBINATIONAL CIRCUIT/implementation_with_Verilog_primitive/eq1_primitive.syr" 

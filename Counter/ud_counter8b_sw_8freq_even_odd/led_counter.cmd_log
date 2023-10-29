@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 4/ud_counter8b_sw_8freq_pause_inv/led_counter.xst" -ofn "D:/cd/TT FPGA/project/tuan 4/ud_counter8b_sw_8freq_pause_inv/led_counter.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 4/ud_counter8b_sw_8freq_pause_inv - Copy/led_counter.xst" -ofn "D:/cd/TT FPGA/project/tuan 4/ud_counter8b_sw_8freq_pause_inv - Copy/led_counter.syr" 

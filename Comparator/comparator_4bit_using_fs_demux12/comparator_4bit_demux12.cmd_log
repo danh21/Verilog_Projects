@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/comparator_4bit_using_fs_demux12/comparator_4bit_demux12.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/comparator_4bit_using_fs_demux12/comparator_4bit_demux12.syr" 

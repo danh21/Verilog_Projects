@@ -1,0 +1,3 @@
+verilog work "FullAdder1bit.v"
+verilog work "FullAdder4bits.v"
+verilog work "FullAdder8bits.v"

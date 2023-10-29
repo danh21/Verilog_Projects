@@ -1,0 +1,5 @@
+set -tmpdir "D:/cd/TT FPGA/project/ch2/ENCODER4_2/encoder42_low_case/xst/projnav.tmp"
+set -xsthdpdir "D:/cd/TT FPGA/project/ch2/ENCODER4_2/encoder42_low_case/xst"
+elaborate
+-ifn encoder42_low_case.prj
+-ifmt mixed

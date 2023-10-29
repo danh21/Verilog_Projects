@@ -1,0 +1,29 @@
+Command line:
+   binary_multiplier_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64077
+
+Fri Jul 02 17:30:51 2021
+
+
+ Elaboration Time: 0.375 sec
+
+ Current Memory Usage: 5162.55 Meg
+
+ Total Signals          : 27
+ Total Nets             : 47
+ Total Signal Drivers   : 28
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 32
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 144
+Total Line Count : 44
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 5477.12 Meg
+
+Fri Jul 02 17:31:40 2021
+

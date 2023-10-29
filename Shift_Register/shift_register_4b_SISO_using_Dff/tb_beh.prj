@@ -1,0 +1,5 @@
+verilog work "FFD.v"
+verilog work "clock_div.v"
+verilog work "shift_register_4b_SISO.v"
+verilog work "tb.v"
+verilog work "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

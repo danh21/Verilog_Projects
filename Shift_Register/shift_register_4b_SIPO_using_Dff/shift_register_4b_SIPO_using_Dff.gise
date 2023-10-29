@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="shift_register_4b_SIPO_using_Dff.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="shift_register_4b_SIPO.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="shift_register_4b_SIPO.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="shift_register_4b_SIPO.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="shift_register_4b_SIPO.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shift_register_4b_SIPO.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="shift_register_4b_SIPO.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="shift_register_4b_SIPO.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="shift_register_4b_SIPO.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="shift_register_4b_SIPO_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="shift_register_4b_SIPO_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="shift_register_4b_SIPO_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1637490705" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1637490705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1637491314" xil_pn:in_ck="9216492245912712149" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1637491314">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FFD.v"/>
+      <outfile xil_pn:name="clock_div.v"/>
+      <outfile xil_pn:name="shift_register_4b_SIPO.v"/>
+      <outfile xil_pn:name="tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1637490705" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7128511773193751507" xil_pn:start_ts="1637490705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1637490705" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1424677592243038667" xil_pn:start_ts="1637490705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1637490705" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="9092743786333063918" xil_pn:start_ts="1637490705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1637491314" xil_pn:in_ck="9216492245912712149" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1637491314">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FFD.v"/>
+      <outfile xil_pn:name="clock_div.v"/>
+      <outfile xil_pn:name="shift_register_4b_SIPO.v"/>
+      <outfile xil_pn:name="tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1637491316" xil_pn:in_ck="9216492245912712149" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7823148730177380887" xil_pn:start_ts="1637491314">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_beh.prj"/>
+      <outfile xil_pn:name="tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1637491316" xil_pn:in_ck="1186589553327596325" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="189975879903447660" xil_pn:start_ts="1637491316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

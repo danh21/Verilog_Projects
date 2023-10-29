@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/bcd_to_led7seg_anode/bcd_to_led7seg_anode_decoder.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/bcd_to_led7seg_anode/bcd_to_led7seg_anode_decoder.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/giai ma/bcd_to_led7seg_anode/bcd_to_led7seg_anode_decoder.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/giai ma/bcd_to_led7seg_anode/bcd_to_led7seg_anode_decoder.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 2/giai ma/bcd_to_led7seg_anode/bcd_to_led7seg_anode_decoder.xst" -ofn "D:/cd/TT FPGA/project/tuan 2/giai ma/bcd_to_led7seg_anode/bcd_to_led7seg_anode_decoder.syr" 

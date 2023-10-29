@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_dadda_tree/dadda4.xst" -ofn "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_dadda_tree/dadda4.syr" 
+xst -intstyle ise -ifn "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_dadda_tree/dadda4.xst" -ofn "D:/cd/thiet ke he thong va vi mach/A_4bit_by_4bit_unsigned_dadda_tree/dadda4.syr" 

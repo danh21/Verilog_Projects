@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 18: Parameter declaration becomes local in <arg fmt="%s" index="1">UART_RX</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 19: Parameter declaration becomes local in <arg fmt="%s" index="1">UART_RX</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 20: Parameter declaration becomes local in <arg fmt="%s" index="1">UART_RX</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 21: Parameter declaration becomes local in <arg fmt="%s" index="1">UART_RX</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"D:/cd/thiet ke he thong va vi mach/UART/3Codes/UART Receiver/ba.v" Line 22: Parameter declaration becomes local in <arg fmt="%s" index="1">UART_RX</arg> with formal parameter declaration list
+</msg>
+
+</messages>
+

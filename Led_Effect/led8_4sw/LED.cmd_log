@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 5/led8_4sw/LED.xst" -ofn "D:/cd/TT FPGA/project/tuan 5/led8_4sw/LED.syr" 
+xst -intstyle ise -ifn "D:/cd/TT FPGA/project/tuan 5/led8_4sw/LED.xst" -ofn "D:/cd/TT FPGA/project/tuan 5/led8_4sw/LED.syr" 

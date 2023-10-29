@@ -1,0 +1,2 @@
+verilog work "full_adder_1bit.v"
+verilog work "full_subtractor_4bit.v"
